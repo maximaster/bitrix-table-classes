@@ -1,0 +1,26 @@
+{
+    "name": "maximaster/bitrix-table-classes",
+    "description": "DataManager-классы для таблиц которые Битрикс пока не описал, описал плохо, либо заблокировал те или иные нужные методы.",
+    "license": "MIT",
+    "require": {
+        "php": ">=7.4.0",
+        "ext-ctype": "*",
+        "ext-iconv": "*",
+        "ext-json": "*",
+        "maximaster/bitrix-enums": ">=18.5",
+        "maximaster/bitrix-table-fields": "^1.0.0"
+    },
+    "suggest": {
+        "wikimedia/php-session-serializer": "^2.0 для использования SessionTable::iterateSessionUserId"
+    },
+    "autoload": {
+        "psr-4": {
+            "Maximaster\\BitrixTableClasses\\": "src/"
+        }
+    },
+    "authors": [
+        {"name": "Лавриненко Максим", "email": "maxim.lavrinenko@maximaster.ru"},
+        {"name": "Мельников Максим", "email": "m.melnikov@maximaster.ru"},
+        {"name": "Лепесин Сергей", "email": "s.lepesin@maximaster.ru"}
+    ]
+}
